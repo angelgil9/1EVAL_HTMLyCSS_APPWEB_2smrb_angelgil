@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>formularios</title>
 </head>
 <body>
     <form action="xd.php" method="get">
@@ -31,11 +31,27 @@
             <input required type="checkbox" name="Acepto las condiciones">Acepto las condiciones
             <input type="checkbox" name="Acepto que se me envíen ofertas">Acepto que se me envíen ofertas
         </p>
+
+        <p>
+            <input type="submit" value="No puedes pulsar esto" disabled><input type="text" name="texto" disabled placeholder="No puedes poner nada">            
+        </p> 
+        <p>
+            <input type="text" name="texto1" placeholder="acceso con A" accesskey="a">
+            <input type="text" name="texto2" placeholder="acceso con E" accesskey="e">
+            <input type="text" name="texto3" placeholder="acceso con I" accesskey="i">
+            <input type="text" name="texto4" placeholder="acceso con O" accesskey="o">
+            <input type="text" name="texto5" placeholder="acceso con U" accesskey="u">
+        </p>
+        <p>
+            <input type="button" value="este botón no vale para absolutamente nada">
+        </p>
+        <p>
+            <input type="file" name="archivo">
+        </p>
         <p>
             <input type="submit" value="enviar">
             <input type="reset" value="borrar">
         </p>
-
     </form>
 </body>
 </html>
