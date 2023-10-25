@@ -1,4 +1,21 @@
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("../fuentesweb/Formula1-Regular.ttf");
+  }
+@font-face {
+    font-family: "Halloween";
+    src: url("../fuentesweb//Halloween\ Spooky.otf");
+}
+ p.halloween{
+    font-family: "Mystery Quest", cursive;
+    font-size: 150%;
+  }
 *{
     background-color: aqua;
+}
+h1#granhallo {
+    color: blue;
+    background-color: red;
+    font-family: "Halloween", cursive;
 }
 /* comentario /*ss
