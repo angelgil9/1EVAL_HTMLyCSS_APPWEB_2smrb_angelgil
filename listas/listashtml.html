@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento de chapucear un poco</title>
+    <style>
+        ul {
+            list-style-type: square;
+        }
+        ol.caritas {
+           list-style-image:url("../multimedia/img/ezgif-1-c5036a1f35.gif");
+        }
+        li.fondo {
+            background-color: blue;
+        }
+    </style>
 </head>
 <body>
     <h1>Hola a todas</h1>
     <p>hola</p>
     <h3>lista ordenada hecha de forma (no) automática</h3>
-    <ol>
+    <ol class="caritas">
         <li>Comprar</li>
         <li>Preparar</li>
         <li>Servir</li>
@@ -24,7 +35,7 @@
         </dl>
     <h3>Lista anidada</h3>
     <ol>
-        <li>
+        <li class="fondo"> lista 1
         <ul>
             <Li>Lista 1 1</Li>
             <li>Lista 1 2</li>
