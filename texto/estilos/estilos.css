@@ -18,4 +18,10 @@ h1#granhallo {
     background-color: red;
     font-family: "Halloween", cursive;
 }
-/* comentario /*ss
+p[class] {
+    background-color: yellow;
+}
+p[class=mayúsculas]{
+  text-transform: uppercase;
+}
+/* comentario /*
