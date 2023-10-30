@@ -24,4 +24,8 @@ p[class] {
 p[class=mayúsculas]{
   text-transform: uppercase;
 }
+a:visited {
+  color: red;
+  background-color: blue;
+}
 /* comentario /*
