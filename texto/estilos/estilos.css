@@ -24,8 +24,37 @@ p[class] {
 p[class=mayúsculas]{
   text-transform: uppercase;
 }
+a:link {
+  color: yellow;
+}
 a:visited {
   color: red;
-  background-color: blue;
+  background-color: pink;
+}
+a:hover {
+  color: green;
+}
+a:link#halloween {s
+  color: orange;
+  background-color: black;
+}
+input:focus {
+  border: red 2px dotted;
+  padding: 2px;
+  background-color: greenyellow;
+}
+q:lang(en) {
+  quotes: '"' '"';
+}
+p::first-letter {
+  color: red;
+}
+p#one::first-line {
+  text-transform: uppercase;
+}
+p#cita1::before {
+  content: "Cita importante: ";
+  font-weight: bold;
+  text-decoration: underline;
 }
 /* comentario /*
