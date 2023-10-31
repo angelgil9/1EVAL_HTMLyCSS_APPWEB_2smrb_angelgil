@@ -1,0 +1,19 @@
+tr:nth-child(even){
+    background-color: blue;
+    color:white;
+}
+tr:nth-child(odd){
+    color:blue;
+
+}
+tr:first-child{
+    color: white;
+    background-color: red;
+}
+tr:last-child{
+    color:white;
+    background-color: red;
+}
+td:last-child{
+    font-weight: bold;
+}
