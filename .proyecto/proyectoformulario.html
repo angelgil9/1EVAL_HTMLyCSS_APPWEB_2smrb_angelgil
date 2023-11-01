@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="proyecto.php" method="get">
+    <p>Apellidos: <input type="text" name="apellidos" required size="20"></p>
+    <p>Nombre: <input type="text" name="nombre" required size="10"></p>
+    <p>Fecha de nacimiento<input type="date" name="fecha"></p>
+    <p>Número de teléfono: <input required type="number" name="tlf" minlength="9" maxlength="9"></p>
+    <p>
+        <input required type="radio" name="hm" value="h"> Hombre
+        <input required type="radio" name="hm" value="m"> Mujer
+    </p>
+    <p>Nivel formativo (?)
+        <select required name="formación">
+            <option value="0">...</option>
+            <option value="1">Ninguno</option>
+            <option value="2">Primaria</option>
+            <option value="3">ESO</option>
+            <option value="4">Bachillerato</option>
+            <option value="5">Grado Medio</option>
+            <option value="6">Grado Superior / Universidad</option>
+        </select>
+        </p>
+        <textarea required name="texto" rows="4" cols="40" placeholder="¿Por qué cree que deberíamos contratarle?"></textarea></br>
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
