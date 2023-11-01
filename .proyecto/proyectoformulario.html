@@ -1,3 +1,4 @@
+<!-- me parece muy feo que cotillees mi proyecto a medio hacer, espero que se te caigan las galletas al suelo >:( -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,15 +8,20 @@
 </head>
 <body>
     <form action="proyecto.php" method="get">
+    <fieldset>
+    <legend>Información personal</legend>
     <p>Apellidos: <input type="text" name="apellidos" required size="20"></p>
     <p>Nombre: <input type="text" name="nombre" required size="10"></p>
     <p>Fecha de nacimiento<input type="date" name="fecha"></p>
     <p>Número de teléfono: <input required type="tel" name="tlf" minlength="9" maxlength="9" size="9"></p>
     <p>Correo electrónico: <input required type="email" name="correo" size="30"></p>
     <p>
+        Sexo:</br>
         <input required type="radio" name="hm" value="h" id="hombre"> <label for="hombre">Hombre</label>
         <input required type="radio" name="hm" value="m" id="mujer"> <label for="mujer">Mujer</label>
     </p>
+    </fieldset>
+    <fieldset> <legend>Información académica/profesional.</legend>
     <p>Nivel formativo (?)
         <select required name="formación">
             <option value="0">...</option>
@@ -27,7 +33,17 @@
             <option value="6">Grado Superior / Universidad</option>
         </select>
     </p>
+    <p><fieldset> <legend>En caso de haber suspendido alguna asignatura, marque cuáles son.</legend>
+        <input type="checkbox" id="SOR"><label for="SOR">SOR</label>
+        <input type="checkbox" id="SR"><label for="SR">SR</label>
+        <input type="checkbox" id="AW"><label for="AW">AW</label>
+        <input type="checkbox" id="SI"><label for="SI">SI</label>
+        <input type="checkbox" id="Empresa"><label for="Empresa">Empresa</label>
+        <input type="checkbox" id="Inglés"><label for="Inglés">Inglés</label>
+    </p>
+    </fieldset>
     <textarea required name="texto" rows="4" cols="40" placeholder="¿Por qué cree que deberíamos contratarle?"></textarea></br>
+    </fieldset>
     <input type="submit" value="Enviar">
     </form>
 </body>
