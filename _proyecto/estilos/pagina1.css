@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.contentbox {
+    margin: 10px auto;
+    width: 100%;
+}
+.container {
+    box-sizing: border-box;
+    width: 60%;
+}
+#cabecera{
+    text-align: center;
+    background-color: violet;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+#barrasuperior{
+    text-align: center;
+    background-color: lightblue;
+    padding: 2%;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#barrasuperiortexto{
+    margin: 5%;
+}
+.lateral{
+    float: left;
+    width: 10%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 800px;
+}
+.lateraltexto{
+    display: block;
+    margin-top: 10%;
+}
+main{
+    float: left;
+}
+.barraderecha{
+    border: 2px solid black;
+    height: fit-content;
+    float: right;
+    padding: 1%;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#cliff{
+    align: auto;
+}
+h3{
+    color: gray;
+    text-align: center;
+}
+.artdes{
+    text-align: center;
+    text-overflow: auto;
+}
+.footer{
+    color: white;
+    background-color: darkgray;
+    float: left;
+    bottom: 0px;
+    padding: 20px;
+    height: 20%;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio de Posicionamiento de Elementos</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+    <style>
+    .fixed-sidebar > img{
+        width: 65px;
+        nav-index: 2;
+    }
+    .fixed-sidebar > ul{
+        list-style: none;
+        text-align: center;
+        padding-left: 0%;
+    }
+    *{
+        background-color: gainsboro;
+        box-sizing: border-box;
+    }
+    div.container{
+        width: 80%;
+        height: 700px;
+        background-color: lightgreen;
+        margin: 20px auto;
+    }
+    nav{
+        background-color: #333333;
+        padding: 20px;
+    }
+    div.nav-item{
+        color: white;
+        background-color: #333333;
+        display: inline;
+        justify-content: baseline;
+        padding-right: 100px;
+    }
+    div.fixed-sidebar{
+        border: black 1px solid ;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: fit-content;
+        height: 300px;
+        position: fixed;
+        top: 35%;
+        left: 0px;
+        padding: 2px;
+    }
+    figcaption{
+        background-color: white;
+        text-align: center;
+    }
+    img{
+        width: 200px;
+    }
+    figure#li1{
+        border: 2px black solid;
+        background-color: white;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        transform: rotate(315deg);
+        z-index: 4;
+    }
+    figure#li2{
+        border: 2px black solid;
+        background-color: white;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+        position: absolute;
+        left: 35%;
+        top: 25%;
+        transform: rotate(50deg);
+        z-index: 3;
+    }
+    figure#li3{
+        border: 2px black solid;
+        background-color: white;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        transform: rotate(345deg);
+        z-index: 2;
+    }
+    figure#li4{
+        border: 2px black solid;
+        background-color: white;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 10px;
+        position: absolute;
+        left: 45%;
+        top: 35%;
+        transform: rotate(20deg);
+    }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <nav>
+            <div class="nav-item">
+                Home
+            </div>
+            <div class="nav-item">
+                Products
+            </div>
+            <div class="nav-item">
+                About Us
+            </div>
+            <div class="nav-item">
+                Contact
+            </div>
+
+        </nav>
+        <figure id="li1">
+            <img src="img/img1.jpg" />
+            <figcaption>Lugar de Interés 1</figcaption>
+        </figure>
+        <figure id="li2">
+            <img src="img/img2.jpg" />
+            <figcaption>Lugar de Interés 2</figcaption>
+        </figure>
+        <figure id="li3">
+            <img src="img/img3.jpg" />
+            <figcaption>Lugar de Interés 3</figcaption>
+        </figure>
+        <figure id="li4">
+            <img src="img/img4.jpg" />
+            <figcaption>Lugar de Interés 4</figcaption>
+        </figure>
+    </div>
+
+    <div class="fixed-sidebar">
+        <img src="img/profile.png" />
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

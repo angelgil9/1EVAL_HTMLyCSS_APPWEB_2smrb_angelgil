@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <style>
+        p.p1 {
+            width: 200px;
+            height: 100px;
+            box-sizing: content-box;
+            border: red 25px solid;
+        }
+        p.p2 {
+            width: 200px;
+            height: 100px;
+            box-sizing: border-box;
+            border: red 25px solid;
+        }
+        h3 {
+            position: relative;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Párrafo 1</h3>
+    <p class="p1">Este párrafo tiene un tamaño de 200x100</p>
+    <h3>Párrafo 2</h3>
+    <p class="p2">Este párrafo tiene un tamaño de 200x100</p>
+</body>
+</html>
